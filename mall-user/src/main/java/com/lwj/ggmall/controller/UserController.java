@@ -13,4 +13,10 @@ public class UserController {
         return "welcome";
 
     }
+
+    @RequestMapping("index2")
+    public String index2(){
+        return "welcome2";
+
+    }
 }
